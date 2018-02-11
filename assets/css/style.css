@@ -1,4 +1,79 @@
-  h1, h2, h3 {
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}  
+
+
+
+h1 {
+  padding: 30px;
+  /*margin: 20px;*/
+}
+
+.h1Div {
+  background-color: blue;
+  /*margin: 50px;*/
+  position: relative;  
+  margin: 0; 
+
+
+
+}
+
+header {
+  background-color: grey;
+}
+
+header::after {
+content: '';
+display: table;
+clear: both;
+
+}
+
+
+.logo {
+  float: left;
+  /*display: inline-block;*/
+  
+
+}
+
+nav {  
+  float:  right;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+  nav a {
+  	
+  	text-decoration: none;
+    color: black;
+    text-transform: : uppercase;
+
+  }
+
+  nav a:hover {
+    color: white;
+  }
+  }
+
+  
+
+  h2, h3 {
     color: #4aaaa5;
     font-family: 'Georgia';
   }
@@ -6,7 +81,54 @@
   p {
     font-family: 'Arial';
   }
+
+  img {
+    width: 40%;
+    height: 40%;
+  }
+
+
   
   body {
-    background-color: #ffffff;
+  	background-image: url("../images/backgroundimage.png");
+    margin: 0 auto;
   }
+
+  .leftDiv {
+  	float: left;
+  	margin-left: 80px;
+    margin-right: 400px;
+    border: hidden;
+    background-color: white;
+    padding: 40px;
+
+    
+  
+  }
+
+  .rightDiv {
+  	float: right;
+  }
+
+  .profileImg {
+  	height: 60%;
+  	width: 60% 
+  	}
+
+
+
+/*social media icons*/
+
+.imgSocial {
+  height: 60px;
+  width: 60px;
+}
+
+.imgStack {
+  height: 55px
+  width: 55px;
+}
+
+
+
+  
