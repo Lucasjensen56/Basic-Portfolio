@@ -1,4 +1,14 @@
 
+/*body*/
+
+  body {
+    background-image: url("../images/backgroundimage.png");
+    margin: 0 auto;
+  }
+
+
+
+/*nav bar*/
 
 .container {
   width: 80%;
@@ -9,7 +19,7 @@
 
 h1 {
   padding: 30px;
-  /*margin: 20px;*/
+  
 }
 
 .h1Div {
@@ -17,8 +27,6 @@ h1 {
   /*margin: 50px;*/
   position: relative;  
   margin: 0; 
-
-
 
 }
 
@@ -30,14 +38,6 @@ header::after {
 content: '';
 display: table;
 clear: both;
-
-}
-
-
-.logo {
-  float: left;
-  /*display: inline-block;*/
-  
 
 }
 
@@ -59,8 +59,8 @@ nav li {
 }
 
   nav a {
-  	
-  	text-decoration: none;
+    
+    text-decoration: none;
     color: black;
     text-transform: : uppercase;
 
@@ -69,9 +69,18 @@ nav li {
   nav a:hover {
     color: white;
   }
-  }
 
+
+
+/*left container*/
+
+
+.logo {
+  float: left;
+  /*display: inline-block;*/
   
+}
+
 
   h2, h3 {
     color: #4aaaa5;
@@ -82,22 +91,13 @@ nav li {
     font-family: 'Arial';
   }
 
-  img {
-    width: 40%;
-    height: 40%;
-  }
-
-
   
-  body {
-  	background-image: url("../images/backgroundimage.png");
-    margin: 0 auto;
-  }
 
   .leftDiv {
   	float: left;
   	margin-left: 80px;
     margin-right: 400px;
+    margin-top: 40px;   
     border: hidden;
     background-color: white;
     padding: 40px;
@@ -106,13 +106,15 @@ nav li {
   
   }
 
+  /*Connect with me container*/
+
   .rightDiv {
   	float: right;
   }
 
   .profileImg {
-  	height: 60%;
-  	width: 60% 
+  	height: 40%;
+  	width: 40% 
   	}
 
 
@@ -127,6 +129,18 @@ nav li {
 .imgStack {
   height: 55px
   width: 55px;
+}
+
+/*footer*/
+
+.footerDiv {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  background-color: grey;
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 
 
