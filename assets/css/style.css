@@ -74,6 +74,13 @@ nav li {
 
 /*left container*/
 
+.profileImg {
+    height: 40%;
+    width: 40%; 
+    float: left;
+    padding: 0 20px 0 20px;
+    }
+
 
 .logo {
   float: left;
@@ -81,27 +88,37 @@ nav li {
   
 }
 
+hr.style1 {
+ border-top: 1px solid #8c8b8b;
+ margin-left: 16px;
+}
+
 
   h2, h3 {
     color: #4aaaa5;
     font-family: 'Georgia';
+    margin: 0;
+    padding: 0px 0px 1px 20px
   }
   
   p {
     font-family: 'Arial';
   }
 
+  .aboutMeText {
+    padding-top: 10px
+  }
+
   
 
   .leftDiv {
   	float: left;
-  	margin-left: 80px;
+    margin-left: 114px;
     margin-right: 400px;
     margin-top: 40px;   
     border: hidden;
     background-color: white;
-    padding: 40px;
-
+    padding: 60px 30px 30px 20px
     
   
   }
@@ -112,10 +129,6 @@ nav li {
   	float: right;
   }
 
-  .profileImg {
-  	height: 40%;
-  	width: 40% 
-  	}
 
 
 
