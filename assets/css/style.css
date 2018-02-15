@@ -50,6 +50,8 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
+  top: 14px;
 }
 
 nav li {
@@ -75,8 +77,8 @@ nav li {
 /*left container*/
 
 .profileImg {
-    height: 40%;
-    width: 40%; 
+    max-height: 39%;
+    max-width: 33%;
     float: left;
     padding: 0 20px 0 20px;
     }
@@ -113,15 +115,19 @@ hr.style1 {
 
   .leftDiv {
   	float: left;
-    margin-left: 114px;
-    margin-right: 400px;
-    margin-top: 40px;   
     border: hidden;
     background-color: white;
-    padding: 60px 30px 30px 20px
-    
+    padding: 60px 30px 30px 20px;
+    position: fixed;
+     right: 349px;
+    left: 90px;
+    top: 153px;
+    bottom: 20%;
   
   }
+
+  
+
 
   /*Connect with me container*/
 
@@ -132,7 +138,8 @@ hr.style1 {
     margin-right: 100px;
     margin-bottom: 10px;
     position: relative;
-    top: -480px;
+    top: 56px;
+    left: 24px
   }
 
   .connectText {
@@ -179,6 +186,73 @@ hr.style1 {
   width: 100%;
   text-align: center;
 }
+
+
+
+/*Portfolio*/
+
+
+/*.portfolioImg {*/
+  width: 100%;
+}
+
+  }
+
+
+h4 {
+   position: absolute;
+   top: 20px; 
+   left: 0px; 
+   right: 0px;
+   width: 100%;
+   display: inline-block;
+  }
+
+
+  
+  .h2Span { 
+    color: white;
+    font: bold 12px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 6px 10px 8px;
+}
+
+/*Portfolio images*/
+
+.image {
+  position: relative;
+    top: 10px;
+    left: 10px;
+    right: -6px;
+    display: inline-block;
+    width: 47%;
+    padding-bottom: 2%;
+    max-width: 55%;
+
+   }
+
+   img {
+    width: 100%;
+   }
+
+
+ .leftDivPort {
+    float: left;
+    border: hidden;
+    background-color: white;
+    padding: 60px 30px 30px 20px;
+    position: absolute;
+     right: 349px;
+    left: 90px;
+    top: 153px;
+    bottom: -13%;
+  
+  }
+
+
+
 
 
 
