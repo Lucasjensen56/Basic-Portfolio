@@ -118,7 +118,7 @@ hr.style1 {
     border: hidden;
     background-color: white;
     padding: 60px 30px 30px 20px;
-    position: fixed;
+    position: absolute;
      right: 349px;
     left: 90px;
     top: 153px;
