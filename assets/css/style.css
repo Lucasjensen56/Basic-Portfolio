@@ -13,6 +13,7 @@
 .container {
   width: 80%;
   margin: 0 auto;
+  border-bottom: 5px solid #dddddd;
 }  
 
 
@@ -35,7 +36,7 @@ h1 {
 
 header {
   background-color: white;
-  border-bottom: 5px solid #dddddd;
+  
 }
 
 header::after {
