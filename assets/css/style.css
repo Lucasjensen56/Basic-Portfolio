@@ -33,7 +33,7 @@ h1 {
 }
 
 header {
-  background-color: grey;
+  background-color: #4aaaa5;
 }
 
 header::after {
@@ -305,7 +305,7 @@ hr.style1 {
     top: 118px;
     left: 0px;
     width: 191px;
-    background: rgba(255,255,255,0.8);
+    background: #4aaaa5;
     padding: 7px 20px 7px 22px;
     text-align: center;
 }
