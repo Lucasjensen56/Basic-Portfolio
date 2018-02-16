@@ -25,7 +25,7 @@ h1 {
 }
 
 .h1Div {
-  background-color: white;
+  background-color: #4aaaa5;
   /*margin: 50px;*/
   position: relative;  
   margin: 0; 
@@ -33,7 +33,7 @@ h1 {
 }
 
 header {
-  background-color: #4aaaa5;
+  background-color: white;
 }
 
 header::after {
