@@ -30,12 +30,12 @@ h1 {
   /*margin: 50px;*/
   position: relative;  
   margin: 0; 
-  border-bottom: 5px solid #dddddd;
 
 }
 
 header {
   background-color: white;
+  border-bottom: 5px solid #dddddd;
 }
 
 header::after {
