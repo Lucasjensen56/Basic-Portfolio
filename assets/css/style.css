@@ -61,8 +61,16 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 20px;
-  padding-top: 30px;
+  margin-left: 9px;
+  padding-top: 2px;
+  padding-right: 14px;
+  border-right: solid 1px grey;
+}
+
+  /*no vertial line after about*/
+
+li:not(:last-child) {
+  border-right: solid 1px grey;
 }
 
   nav a {
