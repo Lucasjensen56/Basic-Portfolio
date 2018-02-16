@@ -334,6 +334,8 @@ input {
 .inputMessage {
     height: 110px;
     width: 85%;
+    resize: both;
+    overflow: auto 
 }
 
 .button {
