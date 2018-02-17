@@ -7,6 +7,18 @@
   }
 
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
 
 /*nav bar*/
 
@@ -36,6 +48,7 @@ h1 {
 header {
   background-color: white;
   border-bottom: 4px solid #dddddd;
+  width: 103%;
   
 }
 
@@ -48,15 +61,16 @@ clear: both;
 
 nav {  
   float:  right;
+  position: relative;
+  top: 29px;
+  left: 17px;
 
 }
 
 nav ul {
-  margin: 0px -39px 0px 36px;
   padding: 0;
   list-style: none;
-  position: relative;
-  top: 38px;
+  top: 24px;
   font-size: 116%;
 }
 
@@ -65,7 +79,6 @@ nav li {
   margin-left: 9px;
   padding-top: 2px;
   padding-right: 14px;
-  border-right: solid 1px grey;
 }
 
   /*no vertial line after about*/
@@ -106,7 +119,7 @@ li:not(:last-child) {
 
 hr.style1 {
  border-top: 1px solid #8c8b8b;
- margin-left: 16px;
+ margin-left: 1px;
 }
 
 
@@ -128,17 +141,28 @@ hr.style1 {
   
 
   .leftDiv {
-  	float: left;
+      float: left;
     border: hidden;
     background-color: white;
     padding: 60px 30px 30px 20px;
-    position: absolute;
-     right: 349px;
-    left: 90px;
-    top: 153px;
+    position: relative;
+    width: 50%;
+    right: 338px;
+    left: 107px;
+    top: 56px;
     bottom: 20%;
   
+  
   }
+
+ .content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: #4aaaa5;
+    padding: 6px 0px 7px 0px;
+    bottom: 11px;
+}
 
   
 
@@ -149,11 +173,10 @@ hr.style1 {
     padding: 30px;
     background-color: white;
     float: right;
-    margin-right: 100px;
     margin-bottom: 10px;
     position: relative;
     top: 56px;
-    left: 24px
+    left: -6%;
   }
 
   .connectText {
@@ -202,86 +225,36 @@ hr.style1 {
   text-align: center;
 }
 
+.footerDiv2 {
+  border-top: 5px solid #4aaaa5;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 21%; 
+}
+
+.footer,
+.push {
+  height: 50px;
+
+}
+
+
 
 
 /*Portfolio*/
 
 
-/*.portfolioImg {*/
-  width: 100%;
-}
-
-  }
-
-
-.portfoiloText {
-   position: absolute;
-   top: 50px; 
-   left: 0px; 
-   right: 0px;
-   width: 100%;
-   display: inline-block;
-  }
 
 
   
-  .portText { 
-    color: white;
-    font: bold 12px/45px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px 55px 9px 55px;
-    font-size: 20px;
-}
-.portText2 { 
-    color: white;
-    font: bold 12px/45px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px 55px 9px 55px;
-    font-size: 20px;
-}
-
-.portText3 { 
-    color: white;
-    font: bold 12px/45px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px 55px 9px 55px;
-    font-size: 20px;
-}
-.portText4 { 
-    color: white;
-    font: bold 12px/45px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px 55px 9px 55px;
-    font-size: 20px;
-}
-.portText5 { 
-    color: white;
-    font: bold 12px/45px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px 55px 9px 55px;
-    font-size: 20px;
-}
 
 /*Portfolio images*/
 
 .image {
     position: relative;
-    top: 10px;
-    left: 0px;
-    right: -2px;
-    display: inline-block;
     width: 100%;
-    padding-bottom: 11%;
    }
 
    img {
@@ -291,14 +264,12 @@ hr.style1 {
 
  .leftDivPort {
     float: left;
-    border: hidden;
     background-color: white;
-    padding: 60px 30px 30px 20px;
+    padding: 3% 2% 0% 2%;;
     position: absolute;
-     right: 349px;
     left: 90px;
     top: 153px;
-    bottom: -13%;
+    width: 50%;
   
   }
 
@@ -322,20 +293,10 @@ hr.style1 {
     text-align: center;
 }
 .image_box {
-    height: 170px;
-    width: 43%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #eaeaea;
+    width: 47%;
     display: inline-block;
     position: relative;
-}
-.image_thumbnail {
-  object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
-  object-position: center; /* Center the image within the element */
-  height: 200px;
-  width: 200px;
-  position: absolute;
+    margin: 1%;
 }
 
 
